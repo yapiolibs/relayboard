@@ -1,0 +1,26 @@
+{
+  "name": "RelayBoard",
+  "keywords": "relay, relay board",
+  "description": "yet another relay board using PCF857x expansionboard",
+  "homepage": "https://github.com/yapiolibs/relayboard",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yapiolibs/relayboard.git"
+  },
+  "authors": [
+    {
+      "name": "Raoul Rubien",
+      "url": "https://github.com/rubienr",
+      "maintainer": "true"
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "Pcf857xExpansionBoard",
+      "version": "https://github.com/yapiolibs/pcf857xexpansionboard"
+    }
+  ],
+  "version": "0.1",
+  "frameworks": "arduino",
+  "platforms": "*"
+}
